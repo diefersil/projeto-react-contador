@@ -1,16 +1,16 @@
 {
+  "homepage": "https://diefersil.github.io/projeto-react-contador",
   "name": "counter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://diefersil.github.io/projeto-react-contador",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
